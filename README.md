@@ -137,6 +137,21 @@ alpine/git                      latest    a939554ad0d0   4 weeks ago     25.1MB
 
 ---
 
+如果要上傳到[Docker Hub](https://hub.docker.com/repositories) :
+先在Docker Hub開好Repository
+然後build一個image
+
+`sudo docker build -t xuunnis1011/docker-validation-app .`
+
+把這個檔案push上去Docker Hub
+
+`
+sudo docker push xuunnis1011/docker-validation-app
+`
+
+
+---
+
 延伸閱讀:
 https://philipzheng.gitbook.io/docker_practice/
 https://blog.techbridge.cc/2018/09/07/docker-compose-tutorial-in
